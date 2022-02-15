@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UIKitLivePreview
 
 final class HomeViewScreen: BaseUIView {
     init() {
@@ -32,3 +33,16 @@ extension HomeViewScreen: CodeView {
         
     }
 }
+
+#if DEBUG && canImport(SwiftUI)
+import SwiftUI
+
+@available(iOS 13.0, *)
+struct MyViewController_Preview: PreviewProvider {
+    static var previews: some View {
+        HomeViewController()
+            .preview()
+            .device(.iPhoneSE_2ndGen)
+    }
+}
+#endif

@@ -7,31 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08C36D7B19FE021388E26C28F39F2A0E /* Pods-ViewCode Study-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9C224174430075B08C0354C1679292 /* Pods-ViewCode Study-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		279C8403B04A92F7BEC6F3B165FB1173 /* Pods-ViewCode Study-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A9FE6273AA4136DC555792BD8C76A /* Pods-ViewCode Study-dummy.m */; };
-		29A9995DB4972154CA5F2A47F78160B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		01845478147FFDFFDCEAA38676727519 /* UIKitRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F3809477CFA8CDC82BD12CF0ED981 /* UIKitRepresentable.swift */; };
+		0552FFC2B548FA859D4F00121A7A2A31 /* UIKitLivePreviewDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F2276529A85D623FBD89F21156CF4 /* UIKitLivePreviewDevice.swift */; };
+		0581138EEA9245FC697338798C54BC06 /* UIKitLivePreview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A89556008E9F64BE2CC67BE961A713F /* UIKitLivePreview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FD37D007E5506D8ADFBD048D7E97B77 /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04B76A68E9086332619AFDAE94CC9F3 /* UIViewController+Preview.swift */; };
+		33964DF1D91E58A244F096355F311761 /* Pods-BankingApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDE8B751F986AC5B06CFA5EF54F5ECA /* Pods-BankingApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D6704EBF4D014213373AF9F1BCE95DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C303311602733935F09D78D844B68247 /* Pods-BankingApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B49CD9DA195EF52DCFA527ECA5EB37ED /* Pods-BankingApp-dummy.m */; };
+		C6F3F547116D57BFA79535C3ED6E4903 /* UIKitLivePreview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB09F655AF4B08528BD3F98E1CE10B34 /* UIKitLivePreview-dummy.m */; };
+		CBD98D31BEEDD51689B75DFFA9CA2A49 /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC9EC5F4924E6165028D3D09032A41E /* UIView+Preview.swift */; };
+		F57FEAD0E38B27A9547657FC20A99C55 /* LandscapeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFF6D7FD4492D96056D221F0D40C594 /* LandscapeModifier.swift */; };
+		FCA6ACA1B4201219A59AEBBF9155B136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FDA697498E36C86E67BF2B84FA87FE8D /* DeviceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F84A1590751FC047328063F4F498E /* DeviceModifier.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DEED0AEC1BE21273A85AEA014AD76EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E001AC39DA0D1B64DEF1F197FF3DCB;
+			remoteInfo = UIKitLivePreview;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1C2AF589EFE771A5C95DAA8693EE914A /* Pods-ViewCode Study-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewCode Study-acknowledgements.plist"; sourceTree = "<group>"; };
-		21DD1E758CDC542344DF3CCE2E2B4BE7 /* Pods-ViewCode Study */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ViewCode Study"; path = Pods_ViewCode_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38B7C22B56553F545613BA444293E50E /* Pods-ViewCode Study-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewCode Study-Info.plist"; sourceTree = "<group>"; };
-		6B9C224174430075B08C0354C1679292 /* Pods-ViewCode Study-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewCode Study-umbrella.h"; sourceTree = "<group>"; };
+		02E173749860AA6287FAD4D2AE43BC11 /* Pods-BankingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankingApp.release.xcconfig"; sourceTree = "<group>"; };
+		053E22F47A6DED07BB42FB1649AC408A /* Pods-BankingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		056F97BB28196BAA6B9CB22464073C16 /* Pods-BankingApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BankingApp"; path = Pods_BankingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A89556008E9F64BE2CC67BE961A713F /* UIKitLivePreview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKitLivePreview-umbrella.h"; sourceTree = "<group>"; };
+		0FFDD92C0ED919A0F535B9E422F105DB /* UIKitLivePreview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKitLivePreview-prefix.pch"; sourceTree = "<group>"; };
+		38B22022724FD514DB4160C0C50DBC4D /* Pods-BankingApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankingApp-Info.plist"; sourceTree = "<group>"; };
+		3EDE8B751F986AC5B06CFA5EF54F5ECA /* Pods-BankingApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankingApp-umbrella.h"; sourceTree = "<group>"; };
+		485F84A1590751FC047328063F4F498E /* DeviceModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModifier.swift; path = Sources/UIKitLivePreview/Utilities/DeviceModifier.swift; sourceTree = "<group>"; };
+		5A5F2276529A85D623FBD89F21156CF4 /* UIKitLivePreviewDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitLivePreviewDevice.swift; path = Sources/UIKitLivePreview/UIKitLivePreviewDevice.swift; sourceTree = "<group>"; };
+		5DFF6D7FD4492D96056D221F0D40C594 /* LandscapeModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LandscapeModifier.swift; path = Sources/UIKitLivePreview/Utilities/LandscapeModifier.swift; sourceTree = "<group>"; };
+		63248366651718BE42BEEAF00AC79D05 /* Pods-BankingApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BankingApp-frameworks.sh"; sourceTree = "<group>"; };
+		6E7A5C17DA1EF22AB929AC0C7BB60E86 /* Pods-BankingApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankingApp.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		809A9FE6273AA4136DC555792BD8C76A /* Pods-ViewCode Study-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewCode Study-dummy.m"; sourceTree = "<group>"; };
+		8AAFC919DB4AE3C5BCF85162D0B46739 /* UIKitLivePreview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIKitLivePreview.release.xcconfig; sourceTree = "<group>"; };
+		9932E855F29003BFA21F53F7C31610C7 /* UIKitLivePreview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIKitLivePreview.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A301E1472CA1FFD21E454CC706BA3407 /* Pods-ViewCode Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewCode Study.debug.xcconfig"; sourceTree = "<group>"; };
-		C69DBC0EDE80D82641196BAE026F38D1 /* Pods-ViewCode Study-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewCode Study-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3A258CD2AA3EBB1417387B6C5D41603 /* Pods-ViewCode Study.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViewCode Study.modulemap"; sourceTree = "<group>"; };
-		FDEAC23CE5A065E288A190C1CCBF16A4 /* Pods-ViewCode Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewCode Study.release.xcconfig"; sourceTree = "<group>"; };
+		9F10E4939DA577D38E2747E506E88590 /* Pods-BankingApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankingApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC2023375CC6A29CE2869A354044AFA5 /* Pods-BankingApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankingApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B49CD9DA195EF52DCFA527ECA5EB37ED /* Pods-BankingApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankingApp-dummy.m"; sourceTree = "<group>"; };
+		C78F3809477CFA8CDC82BD12CF0ED981 /* UIKitRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitRepresentable.swift; path = Sources/UIKitLivePreview/UIKitRepresentable.swift; sourceTree = "<group>"; };
+		D74D9662CDA4FC3F6035884D45A54D9C /* UIKitLivePreview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIKitLivePreview.debug.xcconfig; sourceTree = "<group>"; };
+		D7B257092BB17057B9A97835B3780F60 /* UIKitLivePreview */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKitLivePreview; path = UIKitLivePreview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFED3E09021F975453105F137BF4A66D /* UIKitLivePreview-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIKitLivePreview-Info.plist"; sourceTree = "<group>"; };
+		F04B76A68E9086332619AFDAE94CC9F3 /* UIViewController+Preview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Preview.swift"; path = "Sources/UIKitLivePreview/UIViewController+Preview.swift"; sourceTree = "<group>"; };
+		FB09F655AF4B08528BD3F98E1CE10B34 /* UIKitLivePreview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIKitLivePreview-dummy.m"; sourceTree = "<group>"; };
+		FEC9EC5F4924E6165028D3D09032A41E /* UIView+Preview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Preview.swift"; path = "Sources/UIKitLivePreview/UIView+Preview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B024B902ACC91DF92241F19BE278D389 /* Frameworks */ = {
+		AFD36CA25C288ADD5E821B9577401178 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29A9995DB4972154CA5F2A47F78160B2 /* Foundation.framework in Frameworks */,
+				7D6704EBF4D014213373AF9F1BCE95DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD2EAC3F819F5E0C9216C61F33F902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA6ACA1B4201219A59AEBBF9155B136 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,28 +88,46 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		85CBFBB4B541CACA60DE0FF4115BB7D8 /* Products */ = {
+		73190BD234C36FAE7E7AB814C8B142C4 /* Pods-BankingApp */ = {
 			isa = PBXGroup;
 			children = (
-				21DD1E758CDC542344DF3CCE2E2B4BE7 /* Pods-ViewCode Study */,
+				6E7A5C17DA1EF22AB929AC0C7BB60E86 /* Pods-BankingApp.modulemap */,
+				AC2023375CC6A29CE2869A354044AFA5 /* Pods-BankingApp-acknowledgements.markdown */,
+				9F10E4939DA577D38E2747E506E88590 /* Pods-BankingApp-acknowledgements.plist */,
+				B49CD9DA195EF52DCFA527ECA5EB37ED /* Pods-BankingApp-dummy.m */,
+				63248366651718BE42BEEAF00AC79D05 /* Pods-BankingApp-frameworks.sh */,
+				38B22022724FD514DB4160C0C50DBC4D /* Pods-BankingApp-Info.plist */,
+				3EDE8B751F986AC5B06CFA5EF54F5ECA /* Pods-BankingApp-umbrella.h */,
+				053E22F47A6DED07BB42FB1649AC408A /* Pods-BankingApp.debug.xcconfig */,
+				02E173749860AA6287FAD4D2AE43BC11 /* Pods-BankingApp.release.xcconfig */,
+			);
+			name = "Pods-BankingApp";
+			path = "Target Support Files/Pods-BankingApp";
+			sourceTree = "<group>";
+		};
+		7B9AF9E59DC2D7EA55798A00127CF8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056F97BB28196BAA6B9CB22464073C16 /* Pods-BankingApp */,
+				D7B257092BB17057B9A97835B3780F60 /* UIKitLivePreview */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		958B5BAD9CE65F140ECB51467B9C003B /* Pods-ViewCode Study */ = {
+		88D8AC3AC9FB5ADE42F559097C74DCC5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3A258CD2AA3EBB1417387B6C5D41603 /* Pods-ViewCode Study.modulemap */,
-				C69DBC0EDE80D82641196BAE026F38D1 /* Pods-ViewCode Study-acknowledgements.markdown */,
-				1C2AF589EFE771A5C95DAA8693EE914A /* Pods-ViewCode Study-acknowledgements.plist */,
-				809A9FE6273AA4136DC555792BD8C76A /* Pods-ViewCode Study-dummy.m */,
-				38B7C22B56553F545613BA444293E50E /* Pods-ViewCode Study-Info.plist */,
-				6B9C224174430075B08C0354C1679292 /* Pods-ViewCode Study-umbrella.h */,
-				A301E1472CA1FFD21E454CC706BA3407 /* Pods-ViewCode Study.debug.xcconfig */,
-				FDEAC23CE5A065E288A190C1CCBF16A4 /* Pods-ViewCode Study.release.xcconfig */,
+				D66700F2702B0536073FE72165611808 /* UIKitLivePreview */,
 			);
-			name = "Pods-ViewCode Study";
-			path = "Target Support Files/Pods-ViewCode Study";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A714E0CEE800F532F2FAD1A8593E55ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73190BD234C36FAE7E7AB814C8B142C4 /* Pods-BankingApp */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -75,9 +135,25 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				85CBFBB4B541CACA60DE0FF4115BB7D8 /* Products */,
-				FE61F9C5BB4378DE7E471AD0123301A5 /* Targets Support Files */,
+				88D8AC3AC9FB5ADE42F559097C74DCC5 /* Pods */,
+				7B9AF9E59DC2D7EA55798A00127CF8F0 /* Products */,
+				A714E0CEE800F532F2FAD1A8593E55ED /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF9DAD54AA77C4812CEEA1072FF70253 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9932E855F29003BFA21F53F7C31610C7 /* UIKitLivePreview.modulemap */,
+				FB09F655AF4B08528BD3F98E1CE10B34 /* UIKitLivePreview-dummy.m */,
+				DFED3E09021F975453105F137BF4A66D /* UIKitLivePreview-Info.plist */,
+				0FFDD92C0ED919A0F535B9E422F105DB /* UIKitLivePreview-prefix.pch */,
+				0A89556008E9F64BE2CC67BE961A713F /* UIKitLivePreview-umbrella.h */,
+				D74D9662CDA4FC3F6035884D45A54D9C /* UIKitLivePreview.debug.xcconfig */,
+				8AAFC919DB4AE3C5BCF85162D0B46739 /* UIKitLivePreview.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIKitLivePreview";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -88,44 +164,78 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE61F9C5BB4378DE7E471AD0123301A5 /* Targets Support Files */ = {
+		D66700F2702B0536073FE72165611808 /* UIKitLivePreview */ = {
 			isa = PBXGroup;
 			children = (
-				958B5BAD9CE65F140ECB51467B9C003B /* Pods-ViewCode Study */,
+				485F84A1590751FC047328063F4F498E /* DeviceModifier.swift */,
+				5DFF6D7FD4492D96056D221F0D40C594 /* LandscapeModifier.swift */,
+				5A5F2276529A85D623FBD89F21156CF4 /* UIKitLivePreviewDevice.swift */,
+				C78F3809477CFA8CDC82BD12CF0ED981 /* UIKitRepresentable.swift */,
+				FEC9EC5F4924E6165028D3D09032A41E /* UIView+Preview.swift */,
+				F04B76A68E9086332619AFDAE94CC9F3 /* UIViewController+Preview.swift */,
+				CF9DAD54AA77C4812CEEA1072FF70253 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = UIKitLivePreview;
+			path = UIKitLivePreview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B0E46B51DBDA41A73E1C4D94176C2F4 /* Headers */ = {
+		3F80136157E6B2AA30EFF3A856BE67A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08C36D7B19FE021388E26C28F39F2A0E /* Pods-ViewCode Study-umbrella.h in Headers */,
+				33964DF1D91E58A244F096355F311761 /* Pods-BankingApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64757EEF608F589841A3F61D8C0D1A6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0581138EEA9245FC697338798C54BC06 /* UIKitLivePreview-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B0CD9C0590BF346DFF530AD25B9E1487 /* Pods-ViewCode Study */ = {
+		5F6CD629A6D6588F798C5687D4C8D04E /* Pods-BankingApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92930135304346E3437D04BDA7C052D7 /* Build configuration list for PBXNativeTarget "Pods-ViewCode Study" */;
+			buildConfigurationList = D660A7DB470FC53C79D7666BC45491D7 /* Build configuration list for PBXNativeTarget "Pods-BankingApp" */;
 			buildPhases = (
-				1B0E46B51DBDA41A73E1C4D94176C2F4 /* Headers */,
-				36C21C736654D0F952658393768F5817 /* Sources */,
-				B024B902ACC91DF92241F19BE278D389 /* Frameworks */,
-				C49B850A6B67AE2F0026AC5F83AFC771 /* Resources */,
+				3F80136157E6B2AA30EFF3A856BE67A4 /* Headers */,
+				B88179DC53DC03F3B1F3502F7071ABFB /* Sources */,
+				AFD36CA25C288ADD5E821B9577401178 /* Frameworks */,
+				C81B9BF6D00E70CA1CBA9965A6CFE277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E57D087CC5E0A96B882B1AC0B060317 /* PBXTargetDependency */,
+			);
+			name = "Pods-BankingApp";
+			productName = Pods_BankingApp;
+			productReference = 056F97BB28196BAA6B9CB22464073C16 /* Pods-BankingApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8E001AC39DA0D1B64DEF1F197FF3DCB /* UIKitLivePreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BA0CF2C638336E3B3FBEEBAF7AEB06 /* Build configuration list for PBXNativeTarget "UIKitLivePreview" */;
+			buildPhases = (
+				64757EEF608F589841A3F61D8C0D1A6F /* Headers */,
+				BE58D8502EAD6A66939D0264F482253E /* Sources */,
+				FACD2EAC3F819F5E0C9216C61F33F902 /* Frameworks */,
+				85FA797E15A367E0D228715EE00FBDD6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-ViewCode Study";
-			productName = Pods_ViewCode_Study;
-			productReference = 21DD1E758CDC542344DF3CCE2E2B4BE7 /* Pods-ViewCode Study */;
+			name = UIKitLivePreview;
+			productName = UIKitLivePreview;
+			productReference = D7B257092BB17057B9A97835B3780F60 /* UIKitLivePreview */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -146,17 +256,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 85CBFBB4B541CACA60DE0FF4115BB7D8 /* Products */;
+			productRefGroup = 7B9AF9E59DC2D7EA55798A00127CF8F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0CD9C0590BF346DFF530AD25B9E1487 /* Pods-ViewCode Study */,
+				5F6CD629A6D6588F798C5687D4C8D04E /* Pods-BankingApp */,
+				D8E001AC39DA0D1B64DEF1F197FF3DCB /* UIKitLivePreview */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C49B850A6B67AE2F0026AC5F83AFC771 /* Resources */ = {
+		85FA797E15A367E0D228715EE00FBDD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81B9BF6D00E70CA1CBA9965A6CFE277 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,17 +284,151 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		36C21C736654D0F952658393768F5817 /* Sources */ = {
+		B88179DC53DC03F3B1F3502F7071ABFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				279C8403B04A92F7BEC6F3B165FB1173 /* Pods-ViewCode Study-dummy.m in Sources */,
+				C303311602733935F09D78D844B68247 /* Pods-BankingApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE58D8502EAD6A66939D0264F482253E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA697498E36C86E67BF2B84FA87FE8D /* DeviceModifier.swift in Sources */,
+				F57FEAD0E38B27A9547657FC20A99C55 /* LandscapeModifier.swift in Sources */,
+				C6F3F547116D57BFA79535C3ED6E4903 /* UIKitLivePreview-dummy.m in Sources */,
+				0552FFC2B548FA859D4F00121A7A2A31 /* UIKitLivePreviewDevice.swift in Sources */,
+				01845478147FFDFFDCEAA38676727519 /* UIKitRepresentable.swift in Sources */,
+				CBD98D31BEEDD51689B75DFFA9CA2A49 /* UIView+Preview.swift in Sources */,
+				0FD37D007E5506D8ADFBD048D7E97B77 /* UIViewController+Preview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1E57D087CC5E0A96B882B1AC0B060317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIKitLivePreview;
+			target = D8E001AC39DA0D1B64DEF1F197FF3DCB /* UIKitLivePreview */;
+			targetProxy = DEED0AEC1BE21273A85AEA014AD76EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0559548ABE39533B5877964E0482A415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053E22F47A6DED07BB42FB1649AC408A /* Pods-BankingApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankingApp/Pods-BankingApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankingApp/Pods-BankingApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14AC5BA23CF0CA00872D2C9EC6B3197A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAFC919DB4AE3C5BCF85162D0B46739 /* UIKitLivePreview.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIKitLivePreview/UIKitLivePreview-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIKitLivePreview/UIKitLivePreview-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIKitLivePreview/UIKitLivePreview.modulemap";
+				PRODUCT_MODULE_NAME = UIKitLivePreview;
+				PRODUCT_NAME = UIKitLivePreview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25E11EEC8CC4A4E3CDABDFD1D021E177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E173749860AA6287FAD4D2AE43BC11 /* Pods-BankingApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankingApp/Pods-BankingApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankingApp/Pods-BankingApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -243,43 +495,6 @@
 			};
 			name = Debug;
 		};
-		488B02128975CA3C95D564DA4D6883A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A301E1472CA1FFD21E454CC706BA3407 /* Pods-ViewCode Study.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ViewCode Study/Pods-ViewCode Study-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ViewCode Study/Pods-ViewCode Study.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -342,11 +557,10 @@
 			};
 			name = Release;
 		};
-		77E620649672479DED2F47CC9A576EF1 /* Release */ = {
+		DB1A61CF0CE8EB53EBEDC691F5825A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDEAC23CE5A065E288A190C1CCBF16A4 /* Pods-ViewCode Study.release.xcconfig */;
+			baseConfigurationReference = D74D9662CDA4FC3F6035884D45A54D9C /* UIKitLivePreview.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -356,7 +570,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ViewCode Study/Pods-ViewCode Study-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UIKitLivePreview/UIKitLivePreview-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIKitLivePreview/UIKitLivePreview-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,21 +579,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ViewCode Study/Pods-ViewCode Study.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/UIKitLivePreview/UIKitLivePreview.modulemap";
+				PRODUCT_MODULE_NAME = UIKitLivePreview;
+				PRODUCT_NAME = UIKitLivePreview;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -392,11 +604,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92930135304346E3437D04BDA7C052D7 /* Build configuration list for PBXNativeTarget "Pods-ViewCode Study" */ = {
+		68BA0CF2C638336E3B3FBEEBAF7AEB06 /* Build configuration list for PBXNativeTarget "UIKitLivePreview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				488B02128975CA3C95D564DA4D6883A2 /* Debug */,
-				77E620649672479DED2F47CC9A576EF1 /* Release */,
+				DB1A61CF0CE8EB53EBEDC691F5825A7D /* Debug */,
+				14AC5BA23CF0CA00872D2C9EC6B3197A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D660A7DB470FC53C79D7666BC45491D7 /* Build configuration list for PBXNativeTarget "Pods-BankingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0559548ABE39533B5877964E0482A415 /* Debug */,
+				25E11EEC8CC4A4E3CDABDFD1D021E177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

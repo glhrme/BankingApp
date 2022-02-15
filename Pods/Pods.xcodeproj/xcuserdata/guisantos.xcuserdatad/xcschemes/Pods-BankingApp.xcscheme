@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B0CD9C0590BF346DFF530AD25B9E1487"
-               BuildableName = "Pods_ViewCode_Study.framework"
-               BlueprintName = "Pods-ViewCode Study"
+               BlueprintIdentifier = "5F6CD629A6D6588F798C5687D4C8D04E"
+               BuildableName = "Pods_BankingApp.framework"
+               BlueprintName = "Pods-BankingApp"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

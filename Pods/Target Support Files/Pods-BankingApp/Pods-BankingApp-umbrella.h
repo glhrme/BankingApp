@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ViewCode_StudyVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ViewCode_StudyVersionString[];
+FOUNDATION_EXPORT double Pods_BankingAppVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_BankingAppVersionString[];
 

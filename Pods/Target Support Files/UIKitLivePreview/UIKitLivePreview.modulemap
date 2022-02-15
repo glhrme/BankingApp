@@ -1,0 +1,6 @@
+framework module UIKitLivePreview {
+  umbrella header "UIKitLivePreview-umbrella.h"
+
+  export *
+  module * { export * }
+}
