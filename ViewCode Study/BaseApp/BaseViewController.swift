@@ -13,6 +13,7 @@ class BaseViewController<CustomView: UIView>: UIViewController {
     }
     
     override func loadView() {
+        self.navigationController?.isNavigationBarHidden = true
         self.view = CustomView()
     }
 }

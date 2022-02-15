@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1161A19727BB25EC00020489 /* Pods_ViewCode_Study.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE24FF660D1D61870E1F7E7 /* Pods_ViewCode_Study.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1161A19F27BB34EC00020489 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161A19E27BB34EC00020489 /* UIColor+Extension.swift */; };
 		116C7CFB27ACB60100385556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7CFA27ACB60100385556 /* AppDelegate.swift */; };
 		116C7CFD27ACB60100385556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7CFC27ACB60100385556 /* SceneDelegate.swift */; };
 		116C7CFF27ACB60100385556 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7CFE27ACB60100385556 /* HomeViewController.swift */; };
@@ -20,21 +20,8 @@
 		3EA99843DB74A27BC89194B6 /* Pods_BankingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FE001FA7A891981E8AFFD7 /* Pods_BankingApp.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		1161A19827BB25EC00020489 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1161A19727BB25EC00020489 /* Pods_ViewCode_Study.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		1161A19E27BB34EC00020489 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		116C7CF727ACB60100385556 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116C7CFA27ACB60100385556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		116C7CFC27ACB60100385556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +67,14 @@
 				3DE24FF660D1D61870E1F7E7 /* Pods_ViewCode_Study.framework */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		1161A19D27BB34DB00020489 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1161A19E27BB34EC00020489 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		116C7CEE27ACB60100385556 = {
@@ -143,6 +138,7 @@
 		116C7D1327ACBB0000385556 /* BaseApp */ = {
 			isa = PBXGroup;
 			children = (
+				1161A19D27BB34DB00020489 /* Extensions */,
 				116C7D1427ACBB1F00385556 /* BaseViewController.swift */,
 				116C7D1827ACBCC400385556 /* CodeView.swift */,
 				11D271C227B03BD300A10821 /* BaseUIView.swift */,
@@ -180,7 +176,6 @@
 				116C7CF327ACB60100385556 /* Sources */,
 				116C7CF427ACB60100385556 /* Frameworks */,
 				116C7CF527ACB60100385556 /* Resources */,
-				1161A19827BB25EC00020489 /* Embed Frameworks */,
 				755AA0D5021E34DF3C2E2E37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -291,6 +286,7 @@
 				116C7D1927ACBCC400385556 /* CodeView.swift in Sources */,
 				116C7D1727ACBBC000385556 /* HomeViewScreen.swift in Sources */,
 				116C7CFD27ACB60100385556 /* SceneDelegate.swift in Sources */,
+				1161A19F27BB34EC00020489 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
