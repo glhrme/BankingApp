@@ -82,7 +82,7 @@ extension HomeViewScreen: CodeView {
     func setupConstraints() {
         NSLayoutConstraint.activate([
             
-            self.contentView.heightAnchor.constraint(equalToConstant: 440),
+            self.contentView.heightAnchor.constraint(equalToConstant: 550),
             self.contentView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor, constant: 0),
             self.contentView.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor, constant: 0),
             self.contentView.trailingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.trailingAnchor, constant: 0),
@@ -124,7 +124,7 @@ struct MyViewController_Preview: PreviewProvider {
     static var previews: some View {
         HomeViewController()
             .preview()
-            .device(.iPhone8)
+            .device(.iPhoneSE_2ndGen)
     }
 }
 #endif
