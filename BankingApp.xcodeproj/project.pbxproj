@@ -104,6 +104,7 @@
 		1161A19927BB263C00020489 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				1132647827BC7FA900723E79 /* CoreCoordinator.swift */,
 				1132648027BC97E900723E79 /* Login */,
 				116C7D1127ACBACC00385556 /* Home */,
 			);
@@ -163,7 +164,6 @@
 			children = (
 				116C7CFA27ACB60100385556 /* AppDelegate.swift */,
 				116C7CFC27ACB60100385556 /* SceneDelegate.swift */,
-				1132647827BC7FA900723E79 /* CoreCoordinator.swift */,
 			);
 			path = AppData;
 			sourceTree = "<group>";
@@ -171,9 +171,9 @@
 		116C7D1127ACBACC00385556 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				1132647A27BC80B500723E79 /* HomeCoordinator.swift */,
-				1132647D27BC960400723E79 /* ViewModel */,
 				116C7D1227ACBAD400385556 /* View */,
+				1132647D27BC960400723E79 /* ViewModel */,
+				116C7CFE27ACB60100385556 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -181,8 +181,8 @@
 		116C7D1227ACBAD400385556 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				116C7CFE27ACB60100385556 /* HomeViewController.swift */,
 				116C7D1627ACBBC000385556 /* HomeViewScreen.swift */,
+				1132647A27BC80B500723E79 /* HomeCoordinator.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
