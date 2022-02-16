@@ -14,6 +14,8 @@
 		1132648227BC980500723E79 /* LoginViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132648127BC980500723E79 /* LoginViewScreen.swift */; };
 		1132648427BC981000723E79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132648327BC981000723E79 /* LoginViewController.swift */; };
 		1132648727BC982300723E79 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132648627BC982300723E79 /* LoginCoordinator.swift */; };
+		1132648C27BC9E4C00723E79 /* SFPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1132648B27BC9E4800723E79 /* SFPro.ttf */; };
+		1132648E27BC9FAB00723E79 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132648D27BC9FAB00723E79 /* UIFont+Extension.swift */; };
 		1161A19F27BB34EC00020489 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161A19E27BB34EC00020489 /* UIColor+Extension.swift */; };
 		116C7CFB27ACB60100385556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7CFA27ACB60100385556 /* AppDelegate.swift */; };
 		116C7CFD27ACB60100385556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7CFC27ACB60100385556 /* SceneDelegate.swift */; };
@@ -35,6 +37,8 @@
 		1132648127BC980500723E79 /* LoginViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewScreen.swift; sourceTree = "<group>"; };
 		1132648327BC981000723E79 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1132648627BC982300723E79 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		1132648B27BC9E4800723E79 /* SFPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPro.ttf; sourceTree = "<group>"; };
+		1132648D27BC9FAB00723E79 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		1161A19E27BB34EC00020489 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		116C7CF727ACB60100385556 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116C7CFA27ACB60100385556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1132648927BC9E1800723E79 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				1132648A27BC9E2500723E79 /* Fonts */,
+				116C7D0327ACB60300385556 /* Assets.xcassets */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		1132648A27BC9E2500723E79 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1132648B27BC9E4800723E79 /* SFPro.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		1161A19927BB263C00020489 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				1161A19E27BB34EC00020489 /* UIColor+Extension.swift */,
+				1132648D27BC9FAB00723E79 /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -152,9 +174,9 @@
 				1161A19927BB263C00020489 /* Application */,
 				116C7D0F27ACBAA700385556 /* AppData */,
 				116C7D1327ACBB0000385556 /* BaseApp */,
-				116C7D0327ACB60300385556 /* Assets.xcassets */,
 				116C7D0527ACB60300385556 /* LaunchScreen.storyboard */,
 				116C7D0827ACB60300385556 /* Info.plist */,
+				1132648927BC9E1800723E79 /* Externals */,
 			);
 			path = "ViewCode Study";
 			sourceTree = "<group>";
@@ -173,7 +195,7 @@
 			children = (
 				116C7D1227ACBAD400385556 /* View */,
 				1132647D27BC960400723E79 /* ViewModel */,
-				116C7CFE27ACB60100385556 /* HomeViewController.swift */,
+				1132647A27BC80B500723E79 /* HomeCoordinator.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -182,7 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				116C7D1627ACBBC000385556 /* HomeViewScreen.swift */,
-				1132647A27BC80B500723E79 /* HomeCoordinator.swift */,
+				116C7CFE27ACB60100385556 /* HomeViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1132648C27BC9E4C00723E79 /* SFPro.ttf in Resources */,
 				116C7D0727ACB60300385556 /* LaunchScreen.storyboard in Resources */,
 				116C7D0427ACB60300385556 /* Assets.xcassets in Resources */,
 			);
@@ -346,6 +369,7 @@
 				116C7CFD27ACB60100385556 /* SceneDelegate.swift in Sources */,
 				1132648727BC982300723E79 /* LoginCoordinator.swift in Sources */,
 				1161A19F27BB34EC00020489 /* UIColor+Extension.swift in Sources */,
+				1132648E27BC9FAB00723E79 /* UIFont+Extension.swift in Sources */,
 				1132647B27BC80B500723E79 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
