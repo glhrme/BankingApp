@@ -16,7 +16,7 @@ protocol HomeViewScreenDelegate: AnyObject {
 
 final class HomeViewScreen: BaseUIView {
     
-    weak var delegate: HomeViewScreenDelegate?
+    private weak var delegate: HomeViewScreenDelegate?
     
     lazy var contentView: UIView = {
         var uiView = UIView()
@@ -81,6 +81,10 @@ final class HomeViewScreen: BaseUIView {
     }
     
     //MARK: - Methods
+    func setDelegate(_ delegate: HomeViewScreenDelegate) {
+        self.delegate = delegate
+    }
+    
     @objc func registerTapped(sender: UIButton) {
         SpringAnimation.animateSpring(sender, duration: 0.05, scale: 0.98)
         delegate?.registerTapped()
