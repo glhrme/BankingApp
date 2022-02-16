@@ -15,6 +15,7 @@ extension UIColor {
         case primary
         case baseWhiteButton
         case baseSecondGray
+        case baseBlackButtonHighlite
     }
     
     convenience init(named: Pallete) {

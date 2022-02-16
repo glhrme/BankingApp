@@ -8,7 +8,16 @@
 import UIKit
 import UIKitLivePreview
 
+protocol HomeViewScreenDelegate: AnyObject {
+    func registerTapped()
+    func faqTapped()
+    func loginTapped()
+}
+
 final class HomeViewScreen: BaseUIView {
+    
+    weak var delegate: HomeViewScreenDelegate?
+    
     lazy var contentView: UIView = {
         var uiView = UIView()
         uiView.translatesAutoresizingMaskIntoConstraints = false
@@ -26,6 +35,8 @@ final class HomeViewScreen: BaseUIView {
         button.clipsToBounds = true
         button.setTitle("F.A.Q", for: .normal)
         button.setTitleColor(UIColor(named: .baseBlack), for: .normal)
+        button.setTitleColor(UIColor(named: .baseBlackButtonHighlite), for: .highlighted)
+        button.addTarget(self, action: #selector(self.faqTapped(sender:)), for: .touchUpInside)
         return button
     }()
     
@@ -39,6 +50,8 @@ final class HomeViewScreen: BaseUIView {
         button.clipsToBounds = true
         button.setTitle("Abra sua conta", for: .normal)
         button.setTitleColor(UIColor(named: .baseBlack), for: .normal)
+        button.setTitleColor(UIColor(named: .baseBlackButtonHighlite), for: .highlighted)
+        button.addTarget(self, action: #selector(self.registerTapped(sender:)), for: .touchUpInside)
         return button
     }()
     
@@ -50,6 +63,7 @@ final class HomeViewScreen: BaseUIView {
         button.clipsToBounds = true
         button.setTitle("Entrar", for: .normal)
         button.setTitleColor(UIColor(named: .baseWhiteButton), for: .normal)
+        button.addTarget(self, action: #selector(self.loginTapped(sender:)), for: .touchUpInside)
         return button
     }()
     
@@ -64,6 +78,22 @@ final class HomeViewScreen: BaseUIView {
         super.init(frame: .zero)
         self.setupView()
         self.backgroundColor = UIColor(named: .baseGray)
+    }
+    
+    //MARK: - Methods
+    @objc func registerTapped(sender: UIButton) {
+        SpringAnimation.animateSpring(sender, duration: 0.05, scale: 0.98)
+        delegate?.registerTapped()
+    }
+    
+    @objc func faqTapped(sender: UIButton) {
+        SpringAnimation.animateSpring(sender, duration: 0.05, scale: 0.98)
+        delegate?.faqTapped()
+    }
+    
+    @objc func loginTapped(sender: UIButton) {
+        SpringAnimation.animateSpring(sender, duration: 0.05, scale: 0.98)
+        delegate?.loginTapped()
     }
 }
 
