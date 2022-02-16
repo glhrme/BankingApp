@@ -8,20 +8,24 @@
 import UIKit
 
 protocol CoreCoordinatorProtocol: AnyObject {
-    func start() -> UIViewController
+    func start(withNavigation navigation: UINavigationController) -> UIViewController
 }
 
 class CoreCoordinator {
-    let coordinator: CoreCoordinatorProtocol
+    //MARK: - Core Propoerties
     let window: UIWindow
+    let navigation: UINavigationController
     
-    init(_ window: UIWindow, _ coordinator: CoreCoordinatorProtocol) {
+    //MARK: - Home Coordinator Properties
+    var homeViewController: HomeViewController?
+    
+    init(_ window: UIWindow) {
         self.window = window
-        self.coordinator = coordinator
+        self.navigation = UINavigationController()
     }
     
     func start() {
-        window.rootViewController = coordinator.start()
+        window.rootViewController = self.startHome()
         window.makeKeyAndVisible()
     }
 }

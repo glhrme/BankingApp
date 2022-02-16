@@ -71,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				116C7D1127ACBACC00385556 /* Home */,
-				1132647A27BC80B500723E79 /* HomeCoordinator.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -137,6 +136,7 @@
 		116C7D1127ACBACC00385556 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1132647A27BC80B500723E79 /* HomeCoordinator.swift */,
 				116C7D1227ACBAD400385556 /* View */,
 			);
 			path = Home;
