@@ -10,6 +10,10 @@
 		1132647727BC73CD00723E79 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132647627BC73CD00723E79 /* SpringAnimation.swift */; };
 		1132647927BC7FA900723E79 /* CoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132647827BC7FA900723E79 /* CoreCoordinator.swift */; };
 		1132647B27BC80B500723E79 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132647A27BC80B500723E79 /* HomeCoordinator.swift */; };
+		1132647F27BC961200723E79 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132647E27BC961200723E79 /* HomeViewModel.swift */; };
+		1132648227BC980500723E79 /* LoginViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132648127BC980500723E79 /* LoginViewScreen.swift */; };
+		1132648427BC981000723E79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132648327BC981000723E79 /* LoginViewController.swift */; };
+		1132648727BC982300723E79 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132648627BC982300723E79 /* LoginCoordinator.swift */; };
 		1161A19F27BB34EC00020489 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161A19E27BB34EC00020489 /* UIColor+Extension.swift */; };
 		116C7CFB27ACB60100385556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7CFA27ACB60100385556 /* AppDelegate.swift */; };
 		116C7CFD27ACB60100385556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7CFC27ACB60100385556 /* SceneDelegate.swift */; };
@@ -27,6 +31,10 @@
 		1132647627BC73CD00723E79 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 		1132647827BC7FA900723E79 /* CoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreCoordinator.swift; sourceTree = "<group>"; };
 		1132647A27BC80B500723E79 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		1132647E27BC961200723E79 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1132648127BC980500723E79 /* LoginViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewScreen.swift; sourceTree = "<group>"; };
+		1132648327BC981000723E79 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1132648627BC982300723E79 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		1161A19E27BB34EC00020489 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		116C7CF727ACB60100385556 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116C7CFA27ACB60100385556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,9 +75,36 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		1132647D27BC960400723E79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1132647E27BC961200723E79 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1132648027BC97E900723E79 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1132648527BC981600723E79 /* View */,
+				1132648627BC982300723E79 /* LoginCoordinator.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1132648527BC981600723E79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1132648127BC980500723E79 /* LoginViewScreen.swift */,
+				1132648327BC981000723E79 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1161A19927BB263C00020489 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				1132648027BC97E900723E79 /* Login */,
 				116C7D1127ACBACC00385556 /* Home */,
 			);
 			path = Application;
@@ -137,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				1132647A27BC80B500723E79 /* HomeCoordinator.swift */,
+				1132647D27BC960400723E79 /* ViewModel */,
 				116C7D1227ACBAD400385556 /* View */,
 			);
 			path = Home;
@@ -296,15 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1132648427BC981000723E79 /* LoginViewController.swift in Sources */,
 				116C7CFF27ACB60100385556 /* HomeViewController.swift in Sources */,
 				116C7D1527ACBB1F00385556 /* BaseViewController.swift in Sources */,
 				11D271C327B03BD400A10821 /* BaseUIView.swift in Sources */,
 				1132647727BC73CD00723E79 /* SpringAnimation.swift in Sources */,
 				116C7CFB27ACB60100385556 /* AppDelegate.swift in Sources */,
+				1132648227BC980500723E79 /* LoginViewScreen.swift in Sources */,
 				1132647927BC7FA900723E79 /* CoreCoordinator.swift in Sources */,
 				116C7D1927ACBCC400385556 /* CodeView.swift in Sources */,
+				1132647F27BC961200723E79 /* HomeViewModel.swift in Sources */,
 				116C7D1727ACBBC000385556 /* HomeViewScreen.swift in Sources */,
 				116C7CFD27ACB60100385556 /* SceneDelegate.swift in Sources */,
+				1132648727BC982300723E79 /* LoginCoordinator.swift in Sources */,
 				1161A19F27BB34EC00020489 /* UIColor+Extension.swift in Sources */,
 				1132647B27BC80B500723E79 /* HomeCoordinator.swift in Sources */,
 			);

@@ -8,9 +8,16 @@
 import UIKit
 
 class HomeViewController: BaseViewController<HomeViewScreen> {
+    let viewModel: HomeViewModel
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         customView.setDelegate(self)
+    }
+    
+    init(withViewModel viewModel: HomeViewModel) {
+        self.viewModel = viewModel
+        super.init()
     }
 }
 
@@ -24,6 +31,6 @@ extension HomeViewController: HomeViewScreenDelegate {
     }
     
     func loginTapped() {
-        print("login")
+        self.viewModel.goToLogin()
     }
 }

@@ -13,8 +13,11 @@ protocol HomeCoordinator {
 
 extension CoreCoordinator: HomeCoordinator {
     func startHome() -> UIViewController {
-        let vc = HomeViewController()
+        let vm = HomeViewModel()
+        vm.coordinator = self
+        let vc = HomeViewController(withViewModel: vm)
         self.homeViewController = vc
+        self.homeViewModel = vm
         self.navigation.pushViewController(vc, animated: true)
         return self.navigation
     }

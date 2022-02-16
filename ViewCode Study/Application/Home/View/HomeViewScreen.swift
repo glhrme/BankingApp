@@ -156,7 +156,7 @@ import SwiftUI
 @available(iOS 13.0, *)
 struct MyViewController_Preview: PreviewProvider {
     static var previews: some View {
-        HomeViewController()
+        HomeViewController(withViewModel: HomeViewModel())
             .preview()
             .device(.iPhoneSE_2ndGen)
     }

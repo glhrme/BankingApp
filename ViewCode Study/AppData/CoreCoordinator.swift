@@ -18,6 +18,11 @@ class CoreCoordinator {
     
     //MARK: - Home Coordinator Properties
     var homeViewController: HomeViewController?
+    var homeViewModel: HomeViewModel?
+    
+    //MARK: - Login Coordinator Properties
+    var loginViewController: LoginViewController?
+
     
     init(_ window: UIWindow) {
         self.window = window
