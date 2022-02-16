@@ -24,11 +24,11 @@ class LoginViewScreen: BaseUIView {
         return label
     }()
     
-    lazy var usernameTextField: UITextField = {
-        var tf = UITextField()
+    lazy var usernameTextField: UITextFieldPadding = {
+        var tf = UITextFieldPadding()
         tf.translatesAutoresizingMaskIntoConstraints = false
         tf.clipsToBounds = true
-        tf.layer.cornerRadius = 4
+        tf.layer.cornerRadius = 6
         tf.placeholder = "joaozinho"
         tf.backgroundColor = UIColor(named: .baseSecondGray)
         tf.textColor = UIColor(named: .baseBlack)

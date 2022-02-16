@@ -25,6 +25,7 @@
 		116C7D1527ACBB1F00385556 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7D1427ACBB1F00385556 /* BaseViewController.swift */; };
 		116C7D1727ACBBC000385556 /* HomeViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7D1627ACBBC000385556 /* HomeViewScreen.swift */; };
 		116C7D1927ACBCC400385556 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C7D1827ACBCC400385556 /* CodeView.swift */; };
+		11C39CF727BD31F700EA915C /* UITextFieldPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C39CF627BD31F700EA915C /* UITextFieldPadding.swift */; };
 		11D271C327B03BD400A10821 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D271C227B03BD300A10821 /* BaseUIView.swift */; };
 		3EA99843DB74A27BC89194B6 /* Pods_BankingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FE001FA7A891981E8AFFD7 /* Pods_BankingApp.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		116C7D1427ACBB1F00385556 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		116C7D1627ACBBC000385556 /* HomeViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewScreen.swift; sourceTree = "<group>"; };
 		116C7D1827ACBCC400385556 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		11C39CF627BD31F700EA915C /* UITextFieldPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldPadding.swift; sourceTree = "<group>"; };
 		11D271C227B03BD300A10821 /* BaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
 		3DE24FF660D1D61870E1F7E7 /* Pods_ViewCode_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewCode_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		412B50A9CF871F2E25BA16FB /* Pods-BankingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankingApp.debug.xcconfig"; path = "Target Support Files/Pods-BankingApp/Pods-BankingApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 		116C7D1327ACBB0000385556 /* BaseApp */ = {
 			isa = PBXGroup;
 			children = (
+				11C39CF527BD31E100EA915C /* Components */,
 				1132647527BC73B900723E79 /* Animations */,
 				1161A19D27BB34DB00020489 /* Extensions */,
 				116C7D1427ACBB1F00385556 /* BaseViewController.swift */,
@@ -219,6 +222,14 @@
 				11D271C227B03BD300A10821 /* BaseUIView.swift */,
 			);
 			path = BaseApp;
+			sourceTree = "<group>";
+		};
+		11C39CF527BD31E100EA915C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				11C39CF627BD31F700EA915C /* UITextFieldPadding.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		36C0BB49C6B8352D8F833A1D /* Frameworks */ = {
@@ -365,6 +376,7 @@
 				1132647927BC7FA900723E79 /* CoreCoordinator.swift in Sources */,
 				116C7D1927ACBCC400385556 /* CodeView.swift in Sources */,
 				1132647F27BC961200723E79 /* HomeViewModel.swift in Sources */,
+				11C39CF727BD31F700EA915C /* UITextFieldPadding.swift in Sources */,
 				116C7D1727ACBBC000385556 /* HomeViewScreen.swift in Sources */,
 				116C7CFD27ACB60100385556 /* SceneDelegate.swift in Sources */,
 				1132648727BC982300723E79 /* LoginCoordinator.swift in Sources */,
